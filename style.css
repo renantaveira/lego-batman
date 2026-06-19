@@ -77,5 +77,24 @@ quad {
 }
 
 .quad img {
-    width: 100%
+    width: 10%;
+    height: 150px;
+    border: 3px solid;
+    border-radius: 60px;
+    object-fit: fill;
+}
+
+.quad:hover {
+    padding: 100px;
+    background-color: black;
+    color: aliceblue;
+    border: 5px solid black
+}
+
+footer {
+    margin-top: 10px;
+    color: aliceblue;
+    background-color: black;
+    padding: 60px;
+    font-size: 25px;
 }
